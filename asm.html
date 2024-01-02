@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form method="post" action="">
+      <table border="1px">
+        <tr>
+          <th colspan="2">Đăng Kí</th>
+        </tr>
+        <tr>
+          <td>Full name</td>
+          <td>
+            <input
+              type="text"
+              id="fullName"
+              name="fullName"
+              placeholder="Nhập fullname"
+            />
+          </td>
+        </tr>
+        <tr>
+          <td>Username</td>
+          <td>
+            <input
+              type="text"
+              id="username"
+              name="username"
+              placeholder="Nhập tên"
+            />
+          </td>
+        </tr>
+        <tr>
+          <td>PassWorld</td>
+          <td>
+            <input
+              type="pasworld"
+              id="passworld"
+              name="passworld"
+              placeholder="Nhập mật khẩu"
+            />
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Nhập lại <br />
+            Passworld
+          </td>
+          <td>
+            <input
+              type="pasworld2"
+              id="passworld2"
+              name="passworld2"
+              placeholder="Nhập lại mật khẩu"
+            />
+          </td>
+        </tr>
+
+        <tr>
+          <td>Giới tính</td>
+          <td>
+            <input type="radio" id="boy" name="sex" value="nam" />
+            <label for="sex">nam</label>
+            <input type="radio" id="girl" name="sex" value="nữ" />
+            <label for="sex">nữ</label>
+          </td>
+        </tr>
+        <tr>
+          <td>Ngày sinh</td>
+          <td>
+            <select name="Date" id="Date">
+              <option value="1">Ngày 1</option>
+              <option value="2">Ngày 2</option>
+              <option value="3">Ngày 3</option>
+              <option value="4">Ngày 4</option>
+              <option value="5">Ngày 5</option>
+            </select>
+            <select name="month" id="month">
+              <option value="1">Tháng 1</option>
+              <option value="2">Tháng 2</option>
+              <option value="3">Tháng 3</option>
+              <option value="4">Tháng 4</option>
+              <option value="5">Tháng 5</option>
+            </select>
+            <select name="year" id="year">
+              <option value="2015">Năm 2015</option>
+              <option value="2016">Năm 2016</option>
+              <option value="2017">Năm 2017</option>
+              <option value="2018">Năm 2018</option>
+              <option value="2019">Năm 2019</option>
+            </select>
+          </td>
+        </tr>
+        <tr>
+          <td>Địa Chỉ</td>
+          <td>
+            <textarea name="address" id="address" cols="20" rows="2"></textarea>
+          </td>
+        </tr>
+        <tr>
+          <td>Avatar</td>
+          <td><input type="file" name="file" id="file" /> <br /></td>
+        </tr>
+        <tr>
+          <td>Sở thích</td>
+          <td>
+            <input type="checkbox" id="1" value="xemPhim" name="soThich1" />
+            <label for="1">Xem Phim</label>
+            <input type="checkbox" id="2" value="theThao" name="soThich2" />
+            <label for="2">Thể Thao</label>
+            <input type="checkbox" id="3" value="Web" name="soThich3" />
+            <label for="3">Web</label>
+          </td>
+        </tr>
+        <tr>
+          <th colspan="2">
+            <input type="reset" value="reset" />
+            <input type="submit" value="Ok" />
+          </th>
+        </tr>
+      </table>
+    </form>
+  </body>
+</html>
